@@ -2,7 +2,7 @@
  * Copyright 2016, Angus Macdonald 
  */
 
-package nyc.angus.euler.e067;
+package nyc.angus.euler.p067;
 
 
 /**
