@@ -8,7 +8,7 @@ public class SmallestMultiple {
 	/**
 	 * Get the smallest multiple that can be evenly divided by all numbers from 1-n.
 	 */
-	public static void getSmallestMultiple(final int n) {
+	public long getSmallestMultiple(final int n) {
 
 		long num = n;
 
@@ -16,11 +16,10 @@ public class SmallestMultiple {
 			num += n;
 		}
 
-		System.out.println(num);
-
+		return num;
 	}
 
-	public static boolean divisible(final long num, final int n) {
+	private boolean divisible(final long num, final int n) {
 		for (int i = n; i > 0; i--) {
 			if (num % i != 0) {
 				return false;

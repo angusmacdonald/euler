@@ -5,7 +5,7 @@ package nyc.angus.euler.p002;
  */
 public class EvenFibonacciNumbers {
 
-	public static long calc(final long n) {
+	public long sumEvenValuedTermsBelowN(final long n) {
 
 		long prev2 = 1;
 		long prev = 1;

@@ -8,7 +8,7 @@ public class LargestPalindromeProduct {
 	/**
 	 * Largest prime product made from two three-digit palindromic numbers less than n.
 	 */
-	public static int getLargestPrimeProduct(final int n) {
+	public int getLargestPrimeProduct(final int n) {
 
 		int largest = 0;
 
@@ -34,7 +34,7 @@ public class LargestPalindromeProduct {
 		return largest;
 	}
 
-	public static boolean isPalindrome(final int num) {
+	private boolean isPalindrome(final int num) {
 		final String s = Integer.toString(num);
 
 		return s.equals(new StringBuilder(s).reverse().toString());

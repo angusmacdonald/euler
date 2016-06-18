@@ -8,7 +8,7 @@ import java.util.PriorityQueue;
  */
 public class LargestPrimeFactor {
 
-	public static long getLargestPrimeFactorOfN(long n) {
+	public long getLargestPrimeFactorOfN(long n) {
 		final PriorityQueue<Long> factors = new PriorityQueue<Long>(100, Collections.reverseOrder());
 
 		long d = 2;

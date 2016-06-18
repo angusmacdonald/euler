@@ -5,7 +5,7 @@ package nyc.angus.euler.p001;
  */
 public class Multiples3And5 {
 
-	public static long calc(final int n) {
+	public long calculateSumBelowN(final int n) {
 		if (n <= 3) {
 			return 0l;
 		}
