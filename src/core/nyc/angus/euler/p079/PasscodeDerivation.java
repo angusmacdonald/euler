@@ -1,7 +1,3 @@
-/*
- * Copyright 2016, Angus Macdonald 
- */
-
 package nyc.angus.euler.p079;
 
 import java.util.Arrays;
