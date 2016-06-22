@@ -13,7 +13,7 @@ public class NumberSpiralDiagonalsTest {
 	public void eulerTest() {
 		final NumberSpiralDiagonals diag = new NumberSpiralDiagonals();
 
-		assertEquals("669171001", diag.sumOfDiagonals(1001));
+		assertEquals(669171001, diag.sumOfDiagonals(1001));
 	}
 
 }
