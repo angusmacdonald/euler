@@ -1,4 +1,4 @@
-package nyc.angus.euler.p76;
+package nyc.angus.euler.p076;
 
 /**
  * Solution for Project Euler #76.

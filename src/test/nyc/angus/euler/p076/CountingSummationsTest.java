@@ -1,6 +1,7 @@
-package nyc.angus.euler.p76;
+package nyc.angus.euler.p076;
 
 import static org.junit.Assert.assertEquals;
+import nyc.angus.euler.p076.CountingSummations;
 
 import org.junit.Test;
 
